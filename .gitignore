@@ -1,8 +1,23 @@
-.venv/
+# Ignore python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+
+# Ignore environment
+.venv/
+env/
+venv/
+.env
+
+# Ignore Large Datasets
+data/raw/
 data/unprocessed/*.csv
-data/processed/*.csv
+*.csv
+*sample_500000_rows.csv
+*.db
 mlruns/
+mlflow.db
 .DS_Store
+
+# Ignore Models
+*.pkl
+models/

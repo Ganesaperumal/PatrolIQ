@@ -1,0 +1,18 @@
+{
+    "kmeans": {
+        "silhouette": 0.414837994208686,
+        "davies_bouldin": 0.7707746061935219,
+        "n_clusters": 9
+    },
+    "dbscan": {
+        "silhouette": -0.33938618780024593,
+        "davies_bouldin": 0.5748875971589169,
+        "n_clusters": 12,
+        "noise_points": 469
+    },
+    "hierarchical": {
+        "silhouette": 0.3560653911284154,
+        "davies_bouldin": 0.8755507323475393,
+        "n_clusters": 9
+    }
+}

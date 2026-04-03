@@ -1,0 +1,12 @@
+{
+    "kmeans_k4": {
+        "silhouette": 0.15372907172231848,
+        "davies_bouldin": 2.0015240789344184,
+        "n_clusters": 4
+    },
+    "kmeans_k8": {
+        "silhouette": 0.16627415802999276,
+        "davies_bouldin": 1.728360013808646,
+        "n_clusters": 8
+    }
+}

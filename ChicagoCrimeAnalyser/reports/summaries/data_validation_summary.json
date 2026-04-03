@@ -1,0 +1,30 @@
+{
+    "records": 497914,
+    "columns": 29,
+    "missing_values": {},
+    "duplicates": 14,
+    "date_range": [
+        "2024-03-06 16:20:00",
+        "2026-03-26 00:00:00"
+    ],
+    "year_range": [
+        2024,
+        2026
+    ],
+    "geo_outliers": 0,
+    "unique_crime_types": 31,
+    "unlisted_crime_types": 0,
+    "hour_range": [
+        0,
+        23
+    ],
+    "month_range": [
+        1,
+        12
+    ],
+    "day_range": [
+        1,
+        31
+    ],
+    "invalid_arrests": 0
+}

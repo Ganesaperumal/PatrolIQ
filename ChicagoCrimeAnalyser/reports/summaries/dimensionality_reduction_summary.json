@@ -1,0 +1,9 @@
+{
+    "n_components": 3,
+    "total_explained_variance": 0.3328664699036055,
+    "PC1_var": 0.15801514405775618,
+    "PC2_var": 0.09076927110177668,
+    "PC3_var": 0.08408205474407264,
+    "tsne_sample": 10000,
+    "tsne_perplexity": 30
+}

@@ -1,0 +1,20 @@
+🔍 Starting Data Quality Validation
+------------------------------------------------------------
+✅ Loaded: 497,914 records, 29 columns
+
+✅ No missing values detected
+
+📦 Duplicate rows: 14
+
+⏰ Future dates found: 0
+📅 Date range: 2024-03-06 16:20:00 → 2026-03-26 00:00:00
+📆 Year range: 2024 → 2026
+
+🗺️ Out-of-bound coordinates: 0
+🚫 Unlisted crime categories: 0
+📊 Unique crime types found: 31
+
+⚠️ Arrests without Case Number: 0
+
+✅ Data quality validation completed!
+------------------------------------------------------------
