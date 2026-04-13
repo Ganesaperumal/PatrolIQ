@@ -103,8 +103,8 @@ def main():
     df = clean(df)
     save_metadata(df)
 
-    out_path = os.path.join(CLEAN_DIR, "cleaned_crimes.csv.gz")
-    df.to_csv(out_path, index=False, compression="gzip")
+    out_path = os.path.join(CLEAN_DIR, "cleaned_crimes.parquet")
+    df.to_parquet(out_path, index=False, engine="pyarrow")
     print(f"[preprocess] ✅ Saved → {out_path}")
     print(f"[preprocess] Shape: {df.shape}, Columns: {df.columns.tolist()}")
 

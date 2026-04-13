@@ -12,7 +12,8 @@ build/
 # Large data files (exceeds GitHub 100MB)
 data/uncleaned/
 data/cleaned/cleaned_crimes.csv
-data/cleaned/cleaned_crimes.parquet
+data/cleaned/cleaned_crimes.csv.gz
+!data/cleaned/cleaned_crimes.parquet
 *.so
 
 # Virtual environment
