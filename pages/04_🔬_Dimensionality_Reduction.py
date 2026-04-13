@@ -58,10 +58,13 @@ def load_tsne():
     p = os.path.join(CLEAN_DIR, "tsne_result.csv")
     return pd.read_csv(p) if os.path.exists(p) else pd.DataFrame()
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=30)
 def load_dim_summary():
     p = os.path.join(CLEAN_DIR, "dimensionality_reduction_summary.json")
-    return json.load(open(p)) if os.path.exists(p) else {}
+    if not os.path.exists(p):
+        return {}
+    with open(p) as f:
+        return json.load(f)
 
 pca_var     = load_pca_variance()
 pca_load    = load_pca_loadings()

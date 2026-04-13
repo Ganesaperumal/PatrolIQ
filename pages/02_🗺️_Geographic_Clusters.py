@@ -265,8 +265,8 @@ with tab5:
             fig_radar.add_trace(go.Scatterpolar(
                 r=vals, theta=cats_closed, name=algo,
                 line=dict(color=colors[i % len(colors)], width=2),
-                fill="toself", fillcolor=colors[i % len(colors)].replace("#","") ,
-                opacity=0.15,
+                fill="toself",
+                opacity=0.3,
             ))
         fig_radar.update_layout(
             polar=dict(bgcolor="#161b22",
