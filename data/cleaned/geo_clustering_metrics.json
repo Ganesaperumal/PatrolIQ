@@ -1,0 +1,18 @@
+{
+  "KMeans_Geo": {
+    "silhouette": 0.4074,
+    "davies_bouldin": 0.8031,
+    "n_clusters": 8
+  },
+  "DBSCAN_Geo": {
+    "silhouette": 0.5533,
+    "davies_bouldin": 0.3548,
+    "n_clusters": 2,
+    "noise_pct": 0.0
+  },
+  "Hierarchical_Geo": {
+    "silhouette": 0.3587,
+    "davies_bouldin": 0.8149,
+    "n_clusters": 8
+  }
+}

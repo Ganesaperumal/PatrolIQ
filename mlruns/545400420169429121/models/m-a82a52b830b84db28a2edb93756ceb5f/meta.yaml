@@ -1,0 +1,10 @@
+artifact_location: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/models/m-a82a52b830b84db28a2edb93756ceb5f/artifacts
+creation_timestamp: 1776102335202
+experiment_id: '545400420169429121'
+last_updated_timestamp: 1776102337246
+model_id: m-a82a52b830b84db28a2edb93756ceb5f
+model_type: null
+name: pca_2d_model
+source_run_id: 2d0227597ada4739aaf0f5cb631ef958
+status: 2
+status_message: null

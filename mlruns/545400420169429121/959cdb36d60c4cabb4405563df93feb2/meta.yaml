@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/959cdb36d60c4cabb4405563df93feb2/artifacts
+end_time: 1776102264881
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: 959cdb36d60c4cabb4405563df93feb2
+run_name: KMeans_Geographic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102261369
+status: 3
+tags: []
+user_id: ganesaperumal

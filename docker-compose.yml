@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  patroliq:
+    build: .
+    container_name: patroliq_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./mlruns:/app/mlruns
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_PORT=8501
+    restart: unless-stopped
+
+  mlflow:
+    image: python:3.12-slim
+    container_name: patroliq_mlflow
+    working_dir: /app
+    volumes:
+      - ./mlruns:/app/mlruns
+    command: >
+      bash -c "pip install mlflow && mlflow ui --backend-store-uri /app/mlruns --host 0.0.0.0 --port 5000"
+    ports:
+      - "5000:5000"
+    restart: unless-stopped

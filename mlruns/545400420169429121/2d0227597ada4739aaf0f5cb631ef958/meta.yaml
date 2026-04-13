@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/2d0227597ada4739aaf0f5cb631ef958/artifacts
+end_time: 1776102337248
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: 2d0227597ada4739aaf0f5cb631ef958
+run_name: PCA_DimensionalityReduction
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102335192
+status: 3
+tags: []
+user_id: ganesaperumal

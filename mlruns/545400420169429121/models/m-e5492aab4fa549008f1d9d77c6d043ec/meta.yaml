@@ -1,0 +1,10 @@
+artifact_location: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/models/m-e5492aab4fa549008f1d9d77c6d043ec/artifacts
+creation_timestamp: 1776102262489
+experiment_id: '545400420169429121'
+last_updated_timestamp: 1776102264876
+model_id: m-e5492aab4fa549008f1d9d77c6d043ec
+model_type: null
+name: kmeans_geo_model
+source_run_id: 959cdb36d60c4cabb4405563df93feb2
+status: 2
+status_message: null

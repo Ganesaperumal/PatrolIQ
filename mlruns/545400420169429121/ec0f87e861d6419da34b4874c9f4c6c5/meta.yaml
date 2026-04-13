@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/ec0f87e861d6419da34b4874c9f4c6c5/artifacts
+end_time: 1776102265906
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: ec0f87e861d6419da34b4874c9f4c6c5
+run_name: DBSCAN_Geographic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102264882
+status: 3
+tags: []
+user_id: ganesaperumal

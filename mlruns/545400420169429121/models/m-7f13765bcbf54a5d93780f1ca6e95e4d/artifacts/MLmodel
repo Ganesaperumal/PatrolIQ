@@ -1,0 +1,23 @@
+artifact_path: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/models/m-7f13765bcbf54a5d93780f1ca6e95e4d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-7f13765bcbf54a5d93780f1ca6e95e4d
+model_size_bytes: 200739
+model_uuid: m-7f13765bcbf54a5d93780f1ca6e95e4d
+prompts: null
+run_id: bf73aeaf19e34ec49663758a76cfbf9c
+utc_time_created: '2026-04-13 17:45:32.511391'

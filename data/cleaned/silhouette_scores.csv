@@ -1,0 +1,5 @@
+Algorithm,Silhouette,Davies_Bouldin,N_Clusters
+KMeans_Geo,0.4074,0.8031,8
+DBSCAN_Geo,0.5533,0.3548,2
+Hierarchical_Geo,0.3587,0.8149,8
+KMeans_Temporal,0.2123,1.4301,4

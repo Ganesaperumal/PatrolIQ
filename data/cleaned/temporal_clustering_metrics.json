@@ -1,0 +1,7 @@
+{
+  "KMeans_Temporal": {
+    "silhouette": 0.2123,
+    "davies_bouldin": 1.4301,
+    "n_clusters": 4
+  }
+}

@@ -1,0 +1,10 @@
+artifact_location: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/models/m-7f13765bcbf54a5d93780f1ca6e95e4d/artifacts
+creation_timestamp: 1776102332505
+experiment_id: '545400420169429121'
+last_updated_timestamp: 1776102334996
+model_id: m-7f13765bcbf54a5d93780f1ca6e95e4d
+model_type: null
+name: kmeans_temporal_model
+source_run_id: bf73aeaf19e34ec49663758a76cfbf9c
+status: 2
+status_message: null

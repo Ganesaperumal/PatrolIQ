@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/7949544b11c54682974fe228f5cad278/artifacts
+end_time: 1776102930343
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: 7949544b11c54682974fe228f5cad278
+run_name: tSNE_Visualization
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102930335
+status: 3
+tags: []
+user_id: ganesaperumal

@@ -1,0 +1,15 @@
+artifact_path: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/models/m-a82a52b830b84db28a2edb93756ceb5f/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-a82a52b830b84db28a2edb93756ceb5f
+model_size_bytes: 1109
+model_uuid: m-a82a52b830b84db28a2edb93756ceb5f
+prompts: null
+run_id: 2d0227597ada4739aaf0f5cb631ef958
+utc_time_created: '2026-04-13 17:45:35.209349'

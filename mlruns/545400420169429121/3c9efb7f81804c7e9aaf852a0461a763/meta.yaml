@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/3c9efb7f81804c7e9aaf852a0461a763/artifacts
+end_time: 1776102331181
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: 3c9efb7f81804c7e9aaf852a0461a763
+run_name: Hierarchical_Geographic
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102265908
+status: 3
+tags: []
+user_id: ganesaperumal

@@ -1,0 +1,14 @@
+artifact_uri: /home/ganesaperumal/Documents/DS/scripts/../mlruns/545400420169429121/bf73aeaf19e34ec49663758a76cfbf9c/artifacts
+end_time: 1776102335049
+entry_point_name: ''
+experiment_id: '545400420169429121'
+lifecycle_stage: active
+run_id: bf73aeaf19e34ec49663758a76cfbf9c
+run_name: KMeans_Temporal
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776102331382
+status: 3
+tags: []
+user_id: ganesaperumal
