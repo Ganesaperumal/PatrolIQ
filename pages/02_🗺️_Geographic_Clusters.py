@@ -195,14 +195,19 @@ with tab4:
     if risk_filter != "All":
         sample_for_heat = sample_for_heat[sample_for_heat["Primary Type"] == risk_filter]
 
-    heat_data = sample_for_heat[["Latitude","Longitude","Crime_Severity_Score"]].dropna()
-    heat_points = heat_data[["Latitude","Longitude","Crime_Severity_Score"]].values.tolist()
+    # Use Crime_Severity_Score as heatmap weight if available, else weight=1
+    heat_data = sample_for_heat[["Latitude", "Longitude"]].dropna().copy()
+    if "Crime_Severity_Score" in sample_for_heat.columns:
+        heat_data["weight"] = sample_for_heat.loc[heat_data.index, "Crime_Severity_Score"].fillna(1)
+    else:
+        heat_data["weight"] = 1.0
+    heat_points = heat_data[["Latitude", "Longitude", "weight"]].values.tolist()
 
     heat_map = folium.Map(location=CHICAGO_CENTER, zoom_start=11, tiles="CartoDB dark_matter")
     HeatMap(
         heat_points,
         min_opacity=0.3, max_opacity=0.9, radius=12, blur=15,
-        gradient={"0.3":"#22c55e","0.6":"#eab308","1.0":"#ef4444"},
+        gradient={"0.3": "#22c55e", "0.6": "#eab308", "1.0": "#ef4444"},
     ).add_to(heat_map)
     st_folium(heat_map, width="100%", height=520, returned_objects=[])
 

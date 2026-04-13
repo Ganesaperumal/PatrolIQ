@@ -63,7 +63,7 @@ def save_json(obj, name):
 
 def geo_clustering(df):
     print("\n[train] ── Geographic Clustering ────────────────────────────")
-    geo = df[["Latitude", "Longitude", "Arrest", "Primary Type"]].dropna()
+    geo = df[["Latitude", "Longitude", "Arrest", "Primary Type", "Crime_Severity_Score"]].dropna()
     geo_sample = geo.sample(n=min(GEO_SAMPLE, len(geo)), random_state=42).reset_index(drop=True)
     X = geo_sample[["Latitude", "Longitude"]].values
     scaler = StandardScaler()

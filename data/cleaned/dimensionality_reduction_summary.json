@@ -1,4 +1,10 @@
 {
+  "PCA": {
+    "variance_explained_2pc": 41.63,
+    "n_components_70pct": 6,
+    "n_components_80pct": 8,
+    "n_features": 14
+  },
   "tSNE": {
     "kl_divergence": 2.775
   }
