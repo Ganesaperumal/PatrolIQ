@@ -12,8 +12,7 @@ build/
 # Large data files (exceeds GitHub 100MB)
 data/uncleaned/
 data/cleaned/cleaned_crimes.csv
-data/cleaned/geo_sample.csv
-data/cleaned/pca_result.csv
+data/cleaned/cleaned_crimes.parquet
 *.so
 
 # Virtual environment
@@ -28,6 +27,7 @@ data/uncleaned/
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
+!notebooks/*.ipynb
 
 # OS
 .DS_Store

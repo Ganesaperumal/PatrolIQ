@@ -32,7 +32,7 @@ ML_SAMPLE   = 15_000   # for PCA / t-SNE
 # ── helpers ───────────────────────────────────────────────────────────────────
 
 def load_clean():
-    path = os.path.join(CLEAN_DIR, "cleaned_crimes.csv")
+    path = os.path.join(CLEAN_DIR, "cleaned_crimes.csv.gz")
     print(f"[train] Loading {path} …")
     df = pd.read_csv(path, low_memory=False)
     print(f"[train] Loaded shape: {df.shape}")

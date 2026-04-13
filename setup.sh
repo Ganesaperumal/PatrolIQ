@@ -16,7 +16,7 @@ if [ ! -f "data/uncleaned/crimes_data.csv" ]; then
 fi
 
 # Run preprocessing if cleaned data doesn't exist
-if [ ! -f "data/cleaned/cleaned_crimes.csv" ]; then
+if [ ! -f "data/cleaned/cleaned_crimes.csv.gz" ]; then
     echo "📊 Running preprocessing..."
     python3 scripts/preprocess.py
 fi

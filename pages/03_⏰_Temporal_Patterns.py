@@ -46,7 +46,10 @@ CLEAN_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "cleaned")
 
 @st.cache_data(ttl=3600, show_spinner="Loading temporal data …")
 def load_data():
-    return pd.read_csv(os.path.join(CLEAN_DIR, "cleaned_crimes.csv"),
+    p = os.path.join(CLEAN_DIR, "cleaned_crimes.csv")
+    if not os.path.exists(p) and os.path.exists(p + ".gz"):
+        p += ".gz"
+    return pd.read_csv(p,
                         usecols=["Primary Type","Hour","Day_of_Week","Day_Num",
                                   "Month","Year","Season","Is_Weekend","Is_Night",
                                   "Arrest","Crime_Severity_Score"],
