@@ -19,6 +19,10 @@ st.markdown("""
 .page-title  { font-size:2rem; font-weight:900; color:#e6edf3; margin:0; }
 .page-sub    { color:#8b949e; font-size:0.9rem; margin-top:0.3rem; }
 section[data-testid="stSidebar"] { background:linear-gradient(180deg,#0d1117,#0e1a2e); border-right:1px solid #21262d; }
+.sidebar-brand { text-align: center; padding: 1.5rem 0 1rem; }
+.sidebar-logo { font-size: 2.5rem; }
+.sidebar-name { font-size: 1.2rem; font-weight: 800; color: #4ade80; }
+.sidebar-tag  { font-size: 0.7rem; color: #8b949e; margin-top: 0.2rem; }
 .run-card { background:#161b22; border:1px solid #21262d; border-radius:12px; padding:1rem; margin-bottom:0.7rem; }
 .run-card:hover { border-color:#4ade80; }
 .run-name { font-weight:700; color:#e6edf3; font-size:0.95rem; }
@@ -32,7 +36,14 @@ section[data-testid="stSidebar"] { background:linear-gradient(180deg,#0d1117,#0e
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.markdown("### 🚔 PatrolIQ")
+    st.markdown("""
+    <div class="sidebar-brand">
+        <div class="sidebar-logo">🚔</div>
+        <div class="sidebar-name">PatrolIQ</div>
+        <div class="sidebar-tag">Smart Safety Analytics</div>
+    </div>
+    """, unsafe_allow_html=True)
+    st.divider()
     st.page_link("app.py",                                  label="🏠 Home")
     st.page_link("pages/01_📊_EDA_Overview.py",             label="📊 EDA Overview")
     st.page_link("pages/02_🗺️_Geographic_Clusters.py",       label="🗺️ Geographic Clusters")

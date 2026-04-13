@@ -164,7 +164,6 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
     st.divider()
-    st.markdown("### 📋 Navigation")
     st.page_link("app.py",                                  label="🏠 Home",                  help="Landing dashboard")
     st.page_link("pages/01_📊_EDA_Overview.py",             label="📊 EDA Overview",          help="Exploratory analysis")
     st.page_link("pages/02_🗺️_Geographic_Clusters.py",       label="🗺️ Geographic Clusters", help="Crime hotspot maps")
